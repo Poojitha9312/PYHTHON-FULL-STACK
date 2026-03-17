@@ -1,14 +1,6 @@
-x=5
-y=10
-if(x<y):
-    print("x is less than y")
-if(y>x):
-    print(" y is greater than x")
-if(x<=y):
-    print(' x is lessthan or equal to y')
-if(y>=x):
-    print(' y is greaterthan or equal to x')
-if(x==y):
-    print(' x is equal to y')
-if(x!=y):
-    print(" x is not equal to y")
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+for x in adj:
+    for y in fruits:
+        print(x, y)
+    
