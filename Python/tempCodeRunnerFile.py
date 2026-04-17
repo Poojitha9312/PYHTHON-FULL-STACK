@@ -1,4 +1,4 @@
-d1={1:"satya",2:"ram"}
-d2={"place":"kakinada"}
-d3={**d1,**d2}
-print(d3)
+s1 = "  Rama  "
+print(len(s1))          
+print(len(s1.strip()))  
+print(s1.strip()) 
