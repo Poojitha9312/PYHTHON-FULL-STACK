@@ -33,12 +33,12 @@ Improved Modularity
 ---
 
 ### 1️⃣ Built-in Functions
-
 These are predefined functions that come with Python.  
 You just need to use them — no need to define.
 
 ```python
 print("Hello World")
+
 num = int(input("Enter a number: "))
 print("Minimum:", min(10, 20, 5))
 print("Maximum:", max(10, 20, 5))
