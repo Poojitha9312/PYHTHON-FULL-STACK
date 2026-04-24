@@ -1,4 +1,3 @@
-s1 = "  Rama  "
-print(len(s1))          
-print(len(s1.strip()))  
-print(s1.strip()) 
+def sample(a,b,c):
+    return a,b,c
+print(sample(10,20,30))
