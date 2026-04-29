@@ -1,3 +1,8 @@
-def sample(a,b,c):
-    return a,b,c
-print(sample(10,20,30))
+class student:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    def sample(self,place):
+            print(f"My name is {self.name} and My age is {self.age} and my place is{place}")
+s1=student("satya",20)
+s1.sample("USA")
